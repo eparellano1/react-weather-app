@@ -11,7 +11,7 @@ import wind_icon from "../Assets/wind.png";
 import humidity_icon from "../Assets/humidity.png";
 
 export const WeatherApp = () => {
-  const api_key = process.env.API_KEY;
+  const api_key = process.env.REACT_APP_API_KEY;
   let [humidity, setHumidity] = useState('')
   let [wind, setWind] = useState('')
   let [temperature, setTemperature] = useState('')
