@@ -9,9 +9,10 @@ import rain_icon from "../Assets/rain.png";
 import snow_icon from "../Assets/snow.png";
 import wind_icon from "../Assets/wind.png";
 import humidity_icon from "../Assets/humidity.png";
+require('dotenv').config()
 
 export const WeatherApp = () => {
-  const api_key = "2a5b8143f4ff14e6bf751981b66bc9e6";
+  const api_key = process.env.API_KEY;
   let [humidity, setHumidity] = useState('')
   let [wind, setWind] = useState('')
   let [temperature, setTemperature] = useState('')
