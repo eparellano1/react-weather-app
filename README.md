@@ -2,7 +2,8 @@
 A weather app created on react, using the openweather api
 
 ## Live App
-You can use the live app online by clicking [**HERE**](https://phenomenal-baklava-4b4032.netlify.app/)
+You can use the live app online by clicking [**HERE**](https://phenomenal-baklava-4b4032.netlify.app/).
+
 Alternatively, you can also install the app locally using the steps below:
 
 ## Local Installation
